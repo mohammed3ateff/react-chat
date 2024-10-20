@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+body {
+  background-image: url(/src/assets/images/bgg.jpg);
+}
+body {
+  background-image: url(/public/bgg.jpg);
+}
