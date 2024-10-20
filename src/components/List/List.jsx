@@ -4,7 +4,7 @@ import LogOut from "../../components/LogOut";
 
 export default function List() {
   return (
-    <div className="relative flex-2  flex flex-col hidden md:block ">
+    <div className="relative flex-2   hidden md:block ">
       <UserInfo />
       <ChatList />
       <LogOut />

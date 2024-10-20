@@ -89,7 +89,7 @@ export default function Login() {
 
   return (
     <div className="flex flex-col items-center md:flex-row w-full h-full gap-[100px] p-5">
-      <div className="flex-1 flex flex-col items-center gap-5">
+      <div className="flex-1 flex flex-col items-center gap-5 justify-center">
         <h2>Welcome to react chat</h2>
         <form
           onSubmit={handleLogin}
